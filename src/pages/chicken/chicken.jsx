@@ -9,10 +9,10 @@ const Chicken = () => {
     i18n.changeLanguage(lang);
   }
   return (
-    <div className="mb-[120px]">
-      <p className="text-[gray] ml-[180px] mt-[50px]">{t("Example.131")}</p>
-      <p className="text-[35px] ml-[180px]">{t("Example.132")}</p>
-      <div className="flex justify-center items-center gap-[220px]">
+    <div className="mb-[120px] mv:flex-wrap">
+      <p className="text-[gray] mv:text-center mv:m-auto mv:mt-[50px] ml-[180px] mt-[50px]">{t("Example.131")}</p>
+      <p className="text-[35px] ml-[180px] mv:m-auto mv:text-center mv:mb-[20px]">{t("Example.132")}</p>
+      <div className="flex justify-center mv:flex-wrap mv:w-[350px] mv:m-auto items-center gap-[220px]">
         <div className="flex flex-col gap-[20px] border-[1px] border-[gray] p-[25px] rounded-md">
           <input
             type="text"
@@ -54,7 +54,7 @@ const Chicken = () => {
             <p className="mb-0 text-[black]">{t("Example.133")}</p>
           </div>
         </div>
-        <div className="flex flex-col gap-[20px] border-[1px] border-[gray] p-[15px] rounded-md">
+        <div className="flex flex-col gap-[20px] mv:-mt-[150px] border-[1px] border-[gray] p-[15px] rounded-md">
             <div className="flex justify-center items-center gap-[115px]">
                 <div className="flex items-center gap-[10px]">
                 <img src={img1} alt="" />
@@ -94,7 +94,7 @@ const Chicken = () => {
                 <input type="text" className=" px-[7px] border-[1px] border-[gray] py-[14px] rounded-md" placeholder="Coupon Code" />
                 <button className="py-[15px] ml-[10px] px-[30px] border-[1px] border-[#DB4444] text-[#DB4444] rounded-md">Apply</button>
             </div>
-            <button className="bg-[#DB4444] py-[12px] px-[30px] rounded-md text-[white] w-[200px]">Place Order</button>
+            <button className="bg-[#DB4444] py-[12px] px-[30px] mv:w-[350px] rounded-md text-[white] w-[200px]">Place Order</button>
         </div>
       </div>
 

@@ -10,7 +10,7 @@ const S1 = () => {
   return (
     <div>
         <p className="ml-[130px] mt-[50px]">{t("Example.130")}</p>
-        <div className="flex justify-center items-center mb-[80px] mt-[30px] gap-[50px]">
+        <div className="flex justify-center items-center mb-[80px] mv:flex-wrap mv:w-[350px] mv:m-auto  mt-[30px] gap-[50px]">
         <div className="w-[320px] border-[1px] border-[gray] p-[10px]  rounded-xl">
             <div className="border-b-[1px] border-[gray] pb-[30px]">
                 <div className="flex mb-[10px] items-center">
@@ -30,14 +30,14 @@ const S1 = () => {
                 <p className="">{t("Example.129")}</p>
             </div>
         </div>
-        <div className="p-[20px] rounded-xl border-[1px] border-[gray]">
-            <div className="">
-                <input type="text" className='py-[12px] rounded-md px-[15px] border-[1px] border-[gray]' placeholder='Name' />
-                <input type="text" className='py-[12px] rounded-md px-[15px] border-[1px] border-[gray]' placeholder='Email' />
-                <input type="text" className='py-[12px] rounded-md px-[15px] border-[1px] border-[gray]' placeholder='Phone' />
+        <div className="p-[20px] rounded-xl mv:w-[350px] mv:flex mv:flex-col mv:gap-[10px] border-[1px] border-[gray]">
+            <div className="mv:flex mv:flex-col mv:gap-[10px]">
+                <input type="text" className='py-[12px] mv:w-[310px] rounded-md px-[15px] border-[1px] border-[gray]' placeholder='Name' />
+                <input type="text" className='py-[12px] mv:w-[310px] rounded-md px-[15px] border-[1px] border-[gray]' placeholder='Email' />
+                <input type="text" className='py-[12px] mv:w-[310px] rounded-md px-[15px] border-[1px] border-[gray]' placeholder='Phone' />
             </div>
             <div className="">
-                <textarea name="" className='w-[680px] mt-[10px] h-[270px] border-[1px] border-[gray]' id=""></textarea>
+                <textarea name="" className='w-[680px] mv:w-[310px] mv:m-auto  mt-[10px] h-[270px] border-[1px] border-[gray]' id=""></textarea>
             </div>
         </div>
         </div>
